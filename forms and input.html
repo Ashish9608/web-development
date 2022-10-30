@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms and input tutorial</h1>
+    <form action="backend.php"></form>
+    <div><br>
+        <label for="name"> Name</label>
+        <input type="text" name="myname" id="Name">
+        <div><br>
+            email: <input type="text" name="myemail">
+        </div><br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div><br>
+        <div>
+            role: <input type="text" name="myrole">
+        </div><br>
+        <div>
+            Are you eligible?: yes <input type="checkbox" name="myEligibility"> NO <input type="checkbox" name="myEligibility">
+        </div><br>
+        <div>
+            <label for="profession">select your profession</label>
+            <select name="myprofession" id="profession" size="2">
+                <option value="engi">engineer</option>
+                <option value="doc">doctor</option>
+                <option value="farmer">farmer</option>
+            </select>
+        </div><br>
+        <div>
+            date: <input type="date" name="my date">
+        </div>
+        <div>
+
+        </div>
+    </div><br>
+    <div>
+        bonus: <input type="number" name="mybonus">
+    </div><br>
+    <div>
+        Write about yourself: <br><textarea name="myText" cols="90" rows="7"></textarea>
+    </div>
+    <div>
+        <button type="button" onclick="alert('cant procced to next page!')">submit!</button>
+    </div>
+
+
+</body>
+
+</html>
